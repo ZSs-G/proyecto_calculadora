@@ -1,3 +1,4 @@
 export function tangente(a) {
-    return Math.tan(a)
+    const radianes = a * (Math.PI/180);
+    return Math.tan(radianes)
 }
